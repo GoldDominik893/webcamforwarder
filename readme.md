@@ -1,4 +1,4 @@
-### GoldDominik893's webcamforwarder
+# GoldDominik893's webcamforwarder
 <div align="center">
    <img src="images/logo.png">
 </div>
