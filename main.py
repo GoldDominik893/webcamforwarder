@@ -6,9 +6,7 @@ h_name = socket.gethostname()
 IP_address = socket.gethostbyname(h_name)
 webcontent = open('index.html').read()
 css = open('main.css').read()
-	
 print(r"""
-
   ______             __        __  _______                           __            __  __         ______    ______    ______   __                               
  /      \           |  \      |  \|       \                         |  \          |  \|  \       /      \  /      \  /      \ |  \                              
 |  $$$$$$\  ______  | $$  ____| $$| $$$$$$$\  ______   ______ ____   \$$ _______   \$$| $$   __ |  $$$$$$\|  $$$$$$\|  $$$$$$\| $$_______                       
@@ -32,10 +30,7 @@ print(r"""
   \$$$$$\$$$$   \$$$$$$$ \$$$$$$$   \$$$$$$$ \$$$$$$$ \$$  \$$  \$$ \$$       \$$$$$$  \$$        \$$$$$\$$$$   \$$$$$$$ \$$        \$$$$$$$  \$$$$$$$ \$$      
                                                                                                                                                                 
                                                                                                                                                                 
-                                                                                                                                                                
-
 """)
-
 usercam = int(input('Choose camera output (0-5): '))
 if usercam == 0:
     camera = cv2.VideoCapture(0)
@@ -52,11 +47,7 @@ elif usercam == 5:
 
 wm = ("On another device please go to your computer's ip address (http://" + IP_address + ":5000)")
 print(wm)
-
-
-
 app = Flask(__name__)
-
 def gen_frames(): 
     while True:
 
