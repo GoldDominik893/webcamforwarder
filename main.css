@@ -1,3 +1,15 @@
-div {
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+.img {
     max-height: 70vh;
+    text-align: center;
+}
+.titletext {
+    text-align: center;
+}
+body {
+    background-color: rgb(36, 36, 36);
+}
+h1, h2, h3, h4, h5, h6, p {
+    color: white;
+    font-family: 'Signika Negative', sans-serif;
 }
