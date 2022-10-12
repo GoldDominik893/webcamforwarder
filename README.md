@@ -11,6 +11,7 @@ A basic python program that lets you stream your computers webcam to your other 
 ## Dependancies
  **Flask** - *pip install Flask*<br>
  **OpenCV** - *pip install opencv-python*<br>
+ *You can also use installdep.bat / installdep.sh or just use the compiled exe for windows*
  
 
 ## How to use
