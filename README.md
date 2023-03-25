@@ -1,4 +1,3 @@
-# GoldDominik893's webcamforwarder
 <div align="center">
    <img src="images/logo.png">
 </div>
@@ -9,9 +8,9 @@ A basic python program that lets you stream your computers webcam to your other 
 <img src="images/webexample.png">
 
 ## Dependancies
- **Flask** - *pip install Flask*<br>
- **OpenCV** - *pip install opencv-python*<br>
- *Alternatively you can also use installdep.bat / installdep.sh or just use the compiled exe for windows.*
+ **Flask** - `pip install Flask`<br>
+ **Opencv** - `pip install opencv`<br>
+ **Socket** - `pip install socket`<br>
  
 
 ## How to use
