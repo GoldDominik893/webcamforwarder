@@ -4,7 +4,7 @@ import socket
 
 h_name = socket.gethostname()
 IP_address = socket.gethostbyname(h_name)
-	
+
 print(r"""
 
   ______             __        __  _______                           __            __  __         ______    ______    ______   __                               
