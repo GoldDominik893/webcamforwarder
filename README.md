@@ -16,3 +16,9 @@ A basic python program that lets you stream your computers webcam to your other 
 ## How to use
 Download the zip from [here](https://github.com/GoldDominik893/webcamforwarder/archive/refs/heads/main.zip) and extract, then open main.py and navigate to the url provided on a different device on your network and your ready to go.<br>
 If you want to access your webcam from the internet you have to port forward which the instructions for can be found [here](https://portforward.com/).
+
+## License
+
+This software is Licensed under the [MIT License](/LICENSE). Copyright (c) 2025 Dominik Wajda
+
+You are bound to the terms of the license if you download, use or want to distrubute this software.
